@@ -186,7 +186,7 @@ latex_documents = [
     ('index',
      'data-science-projects.tex',
      u'data-science_project1 Documentation',
-     u"Jesse JCharis", 'manual'),
+     u"Tommy JCharis", 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -216,7 +216,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'data-science-projects', u'data-science_project1 Documentation',
-     [u"Jesse JCharis"], 1)
+     [u"Tommy JCharis"], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -230,7 +230,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     ('index', 'data-science-projects', u'data-science_project1 Documentation',
-     u"Jesse JCharis", 'data-science_project1',
+     u"Tommy JCharis", 'data-science_project1',
      'A Simple Data Science/ML Project', 'Miscellaneous'),
 ]
 

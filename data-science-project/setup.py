@@ -5,6 +5,6 @@ setup(
     packages=find_packages(),
     version='0.1.0',
     description='A Simple Data Science/ML Project',
-    author='Jesse JCharis',
+    author='Tommy JCharis',
     license='',
 )

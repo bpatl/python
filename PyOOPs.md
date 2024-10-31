@@ -1,7 +1,5 @@
 ### Object Oriented Programming in Python
-+ Error Based Learning
-By Jesse E.Agbemabiase (JCharis)
-* Jesus Saves @JCharisTech
+ 
 
 #### Outline
 + Ways to Create Objects
@@ -155,7 +153,7 @@ class Person:
 
 
 ```python
-p = Person("Jesse","JCharis")
+p = Person("Tommy","JCharis")
 print(p)
 print("Check the type",type(p))
 ```
@@ -249,7 +247,7 @@ class Person:
 
 ```python
 ##### Creating an Object
-p = Person("Jesse","JCharis",25)
+p = Person("Tommy","JCharis",25)
 print(p)
 ```
 
@@ -302,7 +300,7 @@ p.first_name
 
 
 
-    'Jesse'
+    'Tommy'
 
 
 
@@ -315,7 +313,7 @@ vars(p)
 
 
 
-    {'first_name': 'Jesse', 'last_name': 'JCharis', 'age': 25}
+    {'first_name': 'Tommy', 'last_name': 'JCharis', 'age': 25}
 
 
 
@@ -381,7 +379,7 @@ p.__dict__
 
 
 
-    {'first_name': 'Jesse', 'last_name': 'JCharis', 'age': 25}
+    {'first_name': 'Tommy', 'last_name': 'JCharis', 'age': 25}
 
 
 
@@ -408,11 +406,11 @@ class Person:
 
 
 ```python
-p = Person("Jesse","JCharis",25)
+p = Person("Tommy","JCharis",25)
 print(p)
 ```
 
-    Person(first_name=Jesse,last_name=JCharis,age=25)
+    Person(first_name=Tommy,last_name=JCharis,age=25)
 
 
 
@@ -425,7 +423,7 @@ p
 
 
 
-    Person('Jesse',JCharis,25)
+    Person('Tommy',JCharis,25)
 
 
 
@@ -596,25 +594,25 @@ class Person:
 
 
 ```python
-Person.to_Birth_Year("Jesse","J",25)
+Person.to_Birth_Year("Tommy","J",25)
 ```
 
 
 
 
-    Person('Jesse',J,1997)
+    Person('Tommy',J,1997)
 
 
 
 
 ```python
-Person.from_Birth_Year("Jesse","J",2000)
+Person.from_Birth_Year("Tommy","J",2000)
 ```
 
 
 
 
-    Person('Jesse',J,22)
+    Person('Tommy',J,22)
 
 
 
