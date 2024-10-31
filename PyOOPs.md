@@ -31,6 +31,115 @@
 + An instance is a copy of the class with actual values (your specific copy is an instance of the class; it contains actual information relevant to you)
 
 
+Chapter 0: PEP8
+Chapter 1: Getting Started
+Chapter 2: Variables and Simple Data Types
+Chapter 3: Introducing Lists
+Chapter 4: Working with Lists
+Chapter 5: if Statements
+Chapter 6: Dictionaries
+Chapter 7: User Input and while Loops
+Chapter 8: Functions
+Chapter 9: Classes
+Chapter 10: Files and Exceptions
+Chapter 11: Testing Your Code
+
+x, y, z = 2, 5, 7
+x = y = z = 7
+very_very_long_variable_name = (
+'this is a really, really, ' # line 1
+'really, really, really, ' # line 2
+"long string" # line 3
+)
+
+Python is dynamically typed, type
+ The current type of a value can be
+inspected using the type() function
+(that returns a type object)
+> x = 1
+> type(x)
+| <class 'int'>
+
+In Python the values contained in a variable
+over time can be of different type
+ In languages like C, C++ and Java variables
+are declared with a given type, e.g.
+int x = 42; 
+Convert a value to
+another type:
+new-type(value)
+ Sometimes done
+automatically:
+
+> float(42)
+| 42.0
+> int(7.8)
+| 7
+> x = 7
+> print("x = " + x)
+| Traceback (most recent call last):
+| File "<stdin>", line 1, in <module>
+| TypeError: must be str, not int
+> print("x = " + str(x))
+| x = 7
+> print("x = " + str(float(x)))
+| x = 7.0
+> int("7.3")
+| Traceback (most recent call last):
+| File "<stdin>", line 1, in <module>
+| ValueError: invalid literal for int() with base 10: '7.3'
+> int(
+
+
+Control structures
+ input()
+ if-elif-else
+ while-break-continue
+
+
+Operations
+ None, bool
+ basic operations
+ strings
+ += and friends
+
+
+Lists
+ List syntax
+ List operations
+ copy.deepcopy
+ range
+ while-else
+ for
+ for-break-continue-else
+
+
+
+> def my_print(x, y, *L):
+print("x =", x)
+print("y =", y)
+print("L =", L)
+> my_print(2, 3, 4, 5, 6, 7)
+| x = 2
+| y = 3
+| L = (4, 5, 6, 7)
+> my_print(42)
+| TypeError: my_print() missing 1
+required positional argument: 'y'\
+
+
+Keyword arguments, default values
+
+> def my_print(a, b, c=5, d=7):
+print("a=%s, b=%s, c=%s, d=%s" % (a, b, c, d))
+> my_print(2, d=3, b=4)
+| a=2, b=4, c=5, d=3
+
+
+
+
+
+
 ```python
 a = "hello python"
 b = 1
